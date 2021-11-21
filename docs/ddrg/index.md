@@ -36,7 +36,7 @@ Run "Rhythm Game.exe" and you should see your game starting
 
 This is the song, where you can play, edit and delete custom songs made for DDRG
 
-![CSM_Preview](./assets/CSM_Preview.png)
+<img src="./assets/CSM_Preview.png" width="500"/>
 
 ### Creating a new Song
 
