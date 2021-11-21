@@ -13,8 +13,8 @@ Here's the more or less complete documentation for the "Devilish Deviants Rhythe
 - - [CREATING A NEW SONG](#creating-a-new-song)
 - - [PLAYING A SONG](#playing-a-song)
 - - - [CHANGING THE SONG MODE](#changing-the-song-mode)
-- - [CONVERTING SONGS](#converting-from-dev-0.3-or-fnf)
-- - - [FROM DEV-0.3](#converting-from-dev-0.3)
+- - [CONVERTING SONGS](#converting-from-dev-03-or-fnf)
+- - - [FROM DEV-0.3](#converting-from-dev-03)
 - - - [FROM FNF](#converting-from-fnf)
 - [EDITOR](#editor)
 
