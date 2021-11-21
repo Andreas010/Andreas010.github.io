@@ -2,122 +2,50 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# DDRG DOCUMENTATION AND HELP
 
-[Link to another page](./another-page.html).
+Here's the more or less complete documentation for the "Devilish Deviants Rhythem Game"
 
-There should be whitespace between paragraphs.
+## Skip
+> [GET STARTED](#Get%20Started)
+> [INSTALLATION](#Installation)
+> [CUSTOM SONG SCREEN](#Custom%20Song%20Screen)
+> > [CREATING A NEW SONG](#Creating%20a%20new%20Song)
+> > [PLAYING A SONG](#Playing%20a%20song)
+> > [CONVERTING SONGS](#Converting%20from%20Dev-0.3%20or%20FNF)
+> > > [FROM DEV-0.3](#Converting%20from%20Dev-0.3)
+> > > [FROM FNF](#Converting%20from%20FNF)
+> [EDITOR](#Editor)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Get Started
 
-# Header 1
+Start by downloading DDRG
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+> [Latest](https://github.com/Andreas010/DDRG/releases/latest)
+> [All Releases](https://github.com/Andreas010/DDRG/releases)
 
-## Header 2
+Make sure to download the right version (x86_64 or x64)
+All the downloads are currently Windows only, but maybe in the future more OS builds will exist
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Installation
 
-### Header 3
+After downloading the version of DDRG, you can simply extract it to any directory
+Run "Rhythm Game.exe" and you should see your game starting
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## Custom Song Screen
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+This is the song, where you can play, edit and delete custom songs made for DDRG
 
-#### Header 4
+![CSM_Preview](./assets/CSM_Preview.png)
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+### Creating a new Song
 
-##### Header 5
+### Playing a song
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+### Converting from Dev-0.3 or FNF
 
-###### Header 6
+#### Converting from Dev-0.3
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+#### Converting from FNF
 
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+## Editor
