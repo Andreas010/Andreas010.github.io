@@ -8,6 +8,8 @@ Here's the more or less complete documentation for the "Devilish Deviants Rhythe
 
 If you are having an issue or want to propose an idea for a feature, goto "https://github.com/Andreas010/DDRG/issues" and create an issue, if it doesn't exist yet
 
+* * *
+
 ## Skip
 - [GET STARTED](#get-started)
 - [INSTALLATION](#installation)
