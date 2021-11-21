@@ -59,6 +59,8 @@ Click on the white box, containing the song name, you want to play. It should mo
 
 From there you will find many options
 Click "Play" and your song will load!
+
+Controlls: D F Space J K
 <img src="./assets/CMS_NewSong.png" width="500"/>
 
 #### Changing the Song Mode
@@ -120,3 +122,75 @@ After pressing Accept, you will see a cmd window showing up. Don't be scared. Be
 Shortly after you will find your song with the others in the list!
 
 ## Editor
+
+<img src="./assets/Editor_Show.png" width="500"/>
+
+The editor looks something like this.
+The "Beat help" is a little white bar showing, where a beat starts. It moves to the closest point, where the mouse pointer is located
+
+"Time/Total Time" shows, where in the song you are.
+
+"Time scrolling" is a more convenient way of scrolling through your song
+
+### Tabs
+
+There are several Tabs in the editor
+(Note, Song, Export)
+
+### Editor Tab - Note
+
+These are the general settings for placing notes
+
+- Note ID - What note do you want to place.
+- - 0 = Normal Note
+- - 1 = Hold Note Mid
+- - 2 = Hold Note End
+- - 3 = Damaging Note
+- - 4 = Poisonous Note
+- - 5 = Instant Kill Note
+- Note speed - What speed is the note traveling at? Higher = Faster
+- - Every note can have it's own speed, which allows for song potential or just trolling
+- Beat marker Clamp - Define where the "Beat Help" should be positioned, e.g.
+- - 1 = 1x Every beat
+- - 2 = 2x Every beat
+- - e.t.c.
+- UI Note Clamp - The same as "Beat marker clamp", but with your cursor
+
+### Editor Tab - Song
+
+Options to define how your song should work
+
+- Song Name - The name of the song
+- BPM - The bpm of the song used by the clamping options
+- Events (Unused/Not implemented yet)
+- - Event Name - The name of the event triggered, e.g. Shake_Screen or Darken_Vision
+- - Event Value - A value, that get's passed to the engin with the name
+- - Event Time - When should the event trigger?
+- - Update Position - Set "Event Time" to the current position
+- - Add Event - Adds the event to your song
+- Play Hitsounds
+- - Enabling this option makes the editor play a sound, when a note should be played
+- Key Count (Unused/Not implemented yet) - How many keys could be pressed?
+
+### Editor Tab - Export
+
+Options to export/save your song
+
+- Song Stats (Unused/Not implemented yet) - Shows how your song performs in these categories
+- - Update Stats - Updates the display to show newly calculated values
+- Play Test - Saves your song and starts the game
+- Save - Saves your song
+- Export (Unused/Will be removed)
+
+### Editor Controlls
+
+```
+P - Play the song music at the current position. Press it again to stop playing
+
+D F Space J K - Place the notes as pressed by the button. This is some way a recording feature.
+
+ESC - Close the editor without saving again
+
+Left Click on one of the bars - Place a note at that position
+Right Click on a highlighted note - Remove that note
+```
