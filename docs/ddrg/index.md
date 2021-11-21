@@ -7,15 +7,15 @@ layout: default
 Here's the more or less complete documentation for the "Devilish Deviants Rhythem Game"
 
 ## Skip
-- [GET STARTED](#Get%20Started)
+- [GET STARTED](#Get-Started)
 - [INSTALLATION](#Installation)
-- [CUSTOM SONG SCREEN](#Custom%20Song%20Screen)
-- - [CREATING A NEW SONG](#Creating%20a%20new%20Song)
-- - [PLAYING A SONG](#Playing%20a%20song)
-- - - [CHANGING THE SONG MODE](#Changing%20the%20Song%20Mode)
-- - [CONVERTING SONGS](#Converting%20from%20Dev-0.3%20or%20FNF)
-- - - [FROM DEV-0.3](#Converting%20from%20Dev-0.3)
-- - - [FROM FNF](#Converting%20from%20FNF)
+- [CUSTOM SONG SCREEN](#Custom-Song-Screen)
+- - [CREATING A NEW SONG](#Creating-a-new-Song)
+- - [PLAYING A SONG](#Playing-a-song)
+- - - [CHANGING THE SONG MODE](#Changing-the-Song-Mode)
+- - [CONVERTING SONGS](#Converting-from-Dev-0.3-or-FNF)
+- - - [FROM DEV-0.3](#Converting-from-Dev-0.3)
+- - - [FROM FNF](#Converting-from-FNF)
 - [EDITOR](#Editor)
 
 ## Get Started
