@@ -12,6 +12,7 @@ Here's the more or less complete documentation for the "Devilish Deviants Rhythe
 - [CUSTOM SONG SCREEN](#Custom%20Song%20Screen)
 - - [CREATING A NEW SONG](#Creating%20a%20new%20Song)
 - - [PLAYING A SONG](#Playing%20a%20song)
+- - - [CHANGING THE SONG MODE](#Changing%20the%20Song%20Mode)
 - - [CONVERTING SONGS](#Converting%20from%20Dev-0.3%20or%20FNF)
 - - - [FROM DEV-0.3](#Converting%20from%20Dev-0.3)
 - - - [FROM FNF](#Converting%20from%20FNF)
@@ -40,12 +41,82 @@ This is the song, where you can play, edit and delete custom songs made for DDRG
 
 ### Creating a new Song
 
+To create your own custom song, click the button in the top right corner saying "Create new Song".
+When clicked a little window should pop up, asking you to give your song a name.
+> Make sure, that the song name doesn't interfere with Windows' Path and File naming rules.
+
+After clicking the button to create a new song, an explorer window should pop up.
+Put your "song.wav" file in that opened folder. "song.wav" is the audio file played, when playing your level.
+> If you don't put a "song.wav" file into the folder and either edit or play, you will experience issues.
+
+From there you can edit your song!
+[Editing your song](#Editor)
+
 ### Playing a song
+
+Click on the white box, containing the song name, you want to play. It should move to the center of the screen. While moving it will open it's "interface"
+> To open any other song's interface, close the previous one by clicking on it again
+
+From there you will find many options
+Click "Play" and your song will load!
+<img src="./assets/CMS_NewSong.png" width="500"/>
+
+#### Changing the Song Mode
+
+The song mode option can be found in the bottom right corner. By default it should say "MODE: NORMAL".
+You can change the song mode, by dragging the slider.
+The modes are:
+> NORMAL    - Play the game it was intended to
+>
+> FREESTYLE - You can't die
+>
+> NO MISS   - If you miss a note, you will instantly die
+>
+> BOTPLAY   - Make a bot play the song
 
 ### Converting from Dev-0.3 or FNF
 
+At the bottom, you will see a "Convert"-Bar. By clicking one of the options, the game will convert any of the found songs in the "./Data/Charts/" folder.
+
 #### Converting from Dev-0.3
 
+> Dev-0.3 is the version of DDRG made by Fopull (The original creator). You can still download it from his discord server.
+
+To convert a Dev-0.3 Song into the new format, click "Open Folder" at the top.
+In the explorer window, create a new folder with your song's name.
+Place the .wav and .txt file into the created folder.
+> Note: The folder name and the name of the .txt must match up!!!
+
+Back in the game, click the "Dev-0.3" button at the bottom and shortly after you will se your song appearing in the list!
+
 #### Converting from FNF
+
+> If you are pressing the button for the first time, it will take a while for the program to do something. It's downloading a version ffmpeg (~100mb). If you have slow internet and don't want to wait, until the program finishes downloading, you can dowload it at "https://piotrkut.de/DDRG/ffmpeg.exe" and then put it into "./Data/FNF/"
+
+Start by opening the folder via the "Open Folder" button at the top.
+In the explorer window, create a new folder with the songs name.
+Next locate your FNF song's .json and the/both of the .ogg files.
+Drag them into the folder.
+Rename the .json file to "song.json".
+If the .ogg files don't have their names either "Inst.ogg" or "Voice.ogg", please rename them.
+
+Atleast the "Inst.ogg" file must be present
+
+Shortly after you will be prompted with this screen for every song
+<img src="./assets/CSM_FnfImport.png" width="500"/>
+
+- Note Speed - How fast the notes are traveling
+- Music Mode - What .ogg files get converted into the song.wav file?
+- Note Mode  - Do you want to play both sides, only Boyfriend or only the opponent?
+
+At the left you will see a preview, on how fast the notes are traveling.
+Under all the options you will see your song's name.
+
+Pressing "Accept" will convert that song
+Pressing "Decline" will skip that song
+
+After pressing Accept, you will see a cmd window showing up. Don't be scared. Because the way Unity works, I had to make it a seperate program, but it shouldn't stay open for too long. The time it converts depend on your CPU speed.
+
+Shortly after you will find your song with the others in the list!
 
 ## Editor
