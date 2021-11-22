@@ -28,6 +28,7 @@ Start by downloading DDRG
 
 - [Latest](https://github.com/Andreas010/DDRG/releases/latest)
 - [All Releases](https://github.com/Andreas010/DDRG/releases)
+- [Changelog](./changelog)
 
 Make sure to download the right version (x86_64 or x64)
 
