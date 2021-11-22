@@ -211,5 +211,6 @@ D F Space J K - Place the notes as pressed by the button. This is some way a rec
 ESC - Close the editor without saving again
 
 Left Click on one of the bars - Place a note at that position
+Middle Click on a note - Get the current settings of the note
 Right Click on a highlighted note - Remove that note
 ```
