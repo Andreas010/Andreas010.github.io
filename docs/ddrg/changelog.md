@@ -8,6 +8,13 @@ Date Format: DD/MM/YYYY
 
 # CHANGELOG
 
+## ALPHA-0.2.1
+
+- Fixed an Issue with holdable notes
+- - They damaged due to a math error
+
+* * *
+
 ## ALPHA-0.2
 22/11/2021
 
